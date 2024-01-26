@@ -44,17 +44,17 @@ terrestrial_date: the date on Earth
 5. min_temp: the minimum tempereture, in Celsius, of a single Martian day (sol) 
 6. pressure: The atmospheric pressure at Curiosity's location 
 ***
--Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types. 
--Analyze your dataset by using Pandas functions to answer the following questions: 
--How many months exist on Mars? 
--How many Martian (and not Earth) days worth of data exist in the scraped dataset? 
--What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question: 
--Find the average minimum daily temperature for all of the months. 
--Plot the results as a bar chart. 
--Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question: 
--Find the average daily atmospheric pressure of all the months. 
--Plot the results as a bar chart. 
--About how many terrestrial (Earth) days exist in a Martian year? To answer this question: 
--Consider how many days elapse on Earth in the time that Mars circles the Sun once. 
--Visually estimate the result by plotting the daily minimum temperature. 
--Export the DataFrame to a CSV file. 
+1. Examine the data types that are currently associated with each column. If necessary, cast (or convert) the data to the appropriate datetime, int, or float data types. 
+2. Analyze your dataset by using Pandas functions to answer the following questions: 
+3. How many months exist on Mars? 
+4. How many Martian (and not Earth) days worth of data exist in the scraped dataset? 
+5. What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question: 
+6. Find the average minimum daily temperature for all of the months. 
+7. Plot the results as a bar chart. 
+8. Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question: 
+9. Find the average daily atmospheric pressure of all the months. 
+11. Plot the results as a bar chart. 
+12. About how many terrestrial (Earth) days exist in a Martian year? To answer this question: 
+13. Consider how many days elapse on Earth in the time that Mars circles the Sun once. 
+14. Visually estimate the result by plotting the daily minimum temperature. 
+15. Export the DataFrame to a CSV file. 
